@@ -52,7 +52,7 @@ body{
 }
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
 body {
-    background: url(/bac.jpg);
+    background: url(./bac.jpg);
    background-repeat: no-repeat;
    background-size: cover;
     
@@ -82,6 +82,8 @@ form {
     -webkit-background-clip: padding-box;
     background-clip: padding-box; 
     overflow: hidden; 
+    box-shadow: 0 0 5px 3px #fff;  
+     margin-top: 20px;
 }
 
 textarea{
